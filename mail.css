@@ -26,8 +26,8 @@ body {
 
 .box {
     position: relative;
-    width: 600px;
-    height: 350px;
+    width: 610px;
+    height: 400px;
     background: rgba(253, 233, 234, 0.9);
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
@@ -39,7 +39,7 @@ body {
 .gifs_left {
     position: absolute;
     width: 92px;
-    bottom: -25px;
+    bottom: -70px;
     left: -16px;
 }
 
@@ -131,7 +131,7 @@ body {
 }
 
 .content p {
-    padding: 0px 45px;
+    padding: 3px;
     font-size: 20px;
     font-family: 'Dancing Script', cursive;
     opacity: 0;
@@ -322,11 +322,11 @@ body {
 }
 
 
-@media screen and (max-width: 658px) {
+@media screen and (max-width: 700px) {
     .box {
         position: relative;
-        width: 307px;
-        height: 432px;
+        width: 350px;
+        height: 600px;
         background: rgba(253, 233, 234, 0.9);
         border-radius: 5px;
         box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.3);
